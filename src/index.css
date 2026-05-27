@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #020617;
+}
+
+iframe {
+  user-select: none;
+}
+
+body {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
