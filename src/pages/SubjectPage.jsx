@@ -26,117 +26,179 @@ import Breadcrumbs from "../components/subject/Breadcrumbs";
 
 import SEO from "../components/seo/SEO";
 import SubjectSEOContent from "../components/subject/SubjectSEOContent";
+import WhatsappChannel from "../components/common/WhatsappChannel";
 
 export default function SubjectPage() {
-  const [activeTab, setActiveTab] = useState("Notes");
 
- const { subjectSlug } = useParams();
+const [activeTab,setActiveTab]=useState("Notes");
 
-const data =
-  subjectDetails[subjectSlug] ||
-  subjectDetails["database-management-system"];
+const {subjectSlug}=useParams();
 
-const seoTitle =
-  `${data.title} Notes, PYQs, Books PDF Download | Auraa StudyHub`;
+const data=
+subjectDetails[subjectSlug]||
+subjectDetails["database-management-system"];
 
-const seoDescription =
-  `Download ${data.title} Notes, Previous Year Question Papers, Books, Important Questions and Study Material for ${data.branch} ${data.semester}.`;
+const seoUrl=window.location.href;
 
-const seoKeywords = `
-${data.title},
-${data.title} Notes,
-${data.title} PYQ,
-${data.title} Books PDF,
-${data.branch},
-${data.semester},
-Engineering Notes,
-Previous Year Question Papers,
-Study Material
-`;
+return(
 
-const seoUrl = window.location.href;
-  return (
-    <div className="min-h-screen bg-[#020617] text-white">
-      <SEO
-  title={seoTitle}
-  description={seoDescription}
-  keywords={seoKeywords}
-  url={seoUrl}
+<div className="min-h-screen bg-[#020617] text-white overflow-x-hidden">
+
+<SEO
+title={`${data.title} Notes`}
+description={data.description}
+keywords={data.title}
+url={seoUrl}
 />
 
-      <Navbar />
+<Navbar/>
 
-      <main className="max-w-7xl mx-auto px-6 pt-32 pb-20">
+<main
+className="
+max-w-7xl
+mx-auto
+px-4
+sm:px-6
+pt-28
+pb-20
+"
+>
 
-        {/* LEFT SIDEBAR + MAIN CONTENT */}
+{/* MOBILE LAYOUT (UNCHANGED) */}
 
-        <div className="grid lg:grid-cols-[280px_1fr] gap-6">
+<div className="lg:hidden">
 
-          <SubjectSidebar />
+<div className="space-y-6">
 
-          <div className="space-y-6">
+<h1 className="text-3xl font-bold">
 
-            <h1 className="text-3xl font-bold">
-  {data.title}
+{data.title}
+
 </h1>
-          <Breadcrumbs />
 
-            {/* HERO */}
+<Breadcrumbs/>
 
-            <SubjectHero data={data} />
+<SubjectHero data={data}/>
 
-            {/* TABS */}
+<ResourceTabs
+activeTab={activeTab}
+setActiveTab={setActiveTab}
+/>
 
-            <ResourceTabs
-              activeTab={activeTab}
-              setActiveTab={setActiveTab}
-            />
+<div>
 
-            {/* STATS */}
+{activeTab==="Notes" && <NotesList/>}
 
-            <SubjectStats data={data} />
+{activeTab==="PYQs" && <PYQList/>}
 
-            {/* CONTENT + RIGHT INFO CARDS */}
+{activeTab==="Books" && <BooksList/>}
 
-            <div className="grid lg:grid-cols-[1fr_280px] gap-6">
+{activeTab==="Important Questions" &&
+<ImportantQuestions/>
+}
 
-              <div>
+</div>
 
-                {activeTab === "Notes" && <NotesList />}
+<SubjectStats data={data}/>
 
-                {activeTab === "PYQs" && <PYQList />}
+<SubjectSidebar/>
 
-                {activeTab === "Books" && <BooksList />}
+<RelatedSubjects/>
 
-                {activeTab === "Important Questions" && (
-                  <ImportantQuestions />
-                )}
+<TrendingNotes/>
 
-              </div>
+<SubjectSEOContent data={data}/>
 
-              <SubjectInfoCards />
+<FAQSection/>
 
-            </div>
+</div>
 
-            {/* BELOW CONTENT */}
+</div>
 
-           <RelatedSubjects />
-           
-             <TrendingNotes />
-             
-             <SubjectSEOContent data={data} />
-           
 
-            <FAQSection />
+{/* DESKTOP LAYOUT */}
 
-          </div>
+<div className="hidden lg:grid lg:grid-cols-[1fr_280px] gap-6 items-start">
 
-        </div>
+{/* LEFT */}
 
-      </main>
+<div className="space-y-6 min-w-0">
 
-      <Footer />
+<h1 className="text-3xl font-bold">
 
-    </div>
-  );
+{data.title}
+
+</h1>
+
+<Breadcrumbs/>
+
+<SubjectHero data={data}/>
+
+<ResourceTabs
+activeTab={activeTab}
+setActiveTab={setActiveTab}
+/>
+
+<div>
+
+{activeTab==="Notes" && <NotesList/>}
+
+{activeTab==="PYQs" && <PYQList/>}
+
+{activeTab==="Books" && <BooksList/>}
+
+{activeTab==="Important Questions" &&
+<ImportantQuestions/>
+}
+
+</div>
+
+<SubjectStats data={data}/>
+
+{/* immediately after notes */}
+
+<RelatedSubjects/>
+
+
+
+<SubjectSEOContent data={data}/>
+
+<FAQSection/>
+
+</div>
+
+
+{/* RIGHT COLUMN */}
+
+<div
+className="
+flex
+flex-col
+gap-6
+sticky
+top-28
+"
+>
+
+{/* Sidebar moved DOWN */}
+
+<SubjectSidebar/>
+
+<SubjectInfoCards/>
+
+</div>
+
+</div>
+<TrendingNotes/>
+
+<WhatsappChannel/>
+
+</main>
+
+<Footer/>
+
+</div>
+
+);
+
 }

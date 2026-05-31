@@ -13,42 +13,95 @@ const data =
 
       {/* Navigation */}
 
-      <div
-        className="
-        bg-white/5
-        border border-white/10
-        rounded-2xl
-        p-5
-      "
-      >
-        <h3 className="font-semibold mb-4">
-          Navigation
-        </h3>
+<div
+className="
+hidden lg:block
 
-        <div className="space-y-2">
+bg-white/5
+border border-white/10
+rounded-2xl
+p-5
+"
+>
 
-          <button className="w-full text-left p-3 rounded-xl bg-white/10">
-            Overview
-          </button>
+<div
+className="
+grid
+grid-cols-2
+gap-2
+"
+>
 
-          <button className="w-full text-left p-3 rounded-xl hover:bg-white/5">
-            Notes
-          </button>
+<button
+className="
+py-3
+rounded-xl
+bg-gradient-to-r
+from-cyan-500
+to-violet-500
+font-medium
+"
+>
 
-          <button className="w-full text-left p-3 rounded-xl hover:bg-white/5">
-            PYQs
-          </button>
+Overview
 
-          <button className="w-full text-left p-3 rounded-xl hover:bg-white/5">
-            Books
-          </button>
+</button>
 
-          <button className="w-full text-left p-3 rounded-xl hover:bg-white/5">
-            Important Questions
-          </button>
+<button
+className="
+py-3
+rounded-xl
+hover:bg-white/5
+"
+>
 
-        </div>
-      </div>
+Notes
+
+</button>
+
+<button
+className="
+py-3
+rounded-xl
+hover:bg-white/5
+"
+>
+
+PYQs
+
+</button>
+
+<button
+className="
+py-3
+rounded-xl
+hover:bg-white/5
+"
+>
+
+Books
+
+</button>
+
+<button
+className="
+col-span-2
+
+py-3
+
+rounded-xl
+
+hover:bg-white/5
+"
+>
+
+Important Questions
+
+</button>
+
+</div>
+
+</div>
 
       {/* Subject Info */}
 

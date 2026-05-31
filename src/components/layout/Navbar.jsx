@@ -3,180 +3,324 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
 
-  const [open, setOpen] = useState(false);
+const [open,setOpen]=useState(false);
 
-  return (
+return(
 
-    <nav className="fixed top-0 left-0 w-full z-50">
+<nav className="fixed top-0 left-0 w-full z-50">
 
-      <div className="w-full">
+<div className="w-full">
 
-        <div
-          className="
-          w-full
-          h-[30px]
-          px-8
-          flex
-          items-center
-          justify-between
-          backdrop-blur-xl
-          bg-white/5
-          border-b
-          border-white/10
-          "
-        >
+<div
+className="
+w-full
 
-          {/* LOGO */}
+h-[70px]
 
-          <Link
-            to="/"
-            className="text-[26px]
+px-6
+lg:px-8
+
+flex
+items-center
+justify-between
+
+backdrop-blur-xl
+
+bg-[#020617]/80
+
+border-b
+border-white/10
+"
+>
+
+{/* LOGO */}
+
+<Link
+to="/"
+className="
+text-[28px]
 font-bold
-tracking-tight"
-          >
+tracking-tight
+"
+>
 
-            <span className="text-white">
-              Study
-            </span>
+<span className="text-white">
 
-            <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-              Hub
-            </span>
+Study
 
-          </Link>
+</span>
 
-          {/* DESKTOP MENU */}
+<span className="
+bg-gradient-to-r
+from-cyan-400
+to-purple-500
 
-          <div className="hidden lg:flex items-center gap-14 text-sm font-semibold tracking-wide">
-
-            <Link
-              to="/"
-              className="text-slate-300 hover:text-cyan-400 transition"
-            >
-              Home
-            </Link>
-
-            <Link
-              to="/notes"
-              className="text-slate-300 hover:text-cyan-400 transition"
-            >
-              Notes
-            </Link>
-
-            <Link
-              to="/pyqs"
-              className="text-slate-300 hover:text-cyan-400 transition"
-            >
-              PYQs
-            </Link>
-
-            <Link
-              to="/books"
-              className="text-slate-300 hover:text-cyan-400 transition"
-            >
-              Books
-            </Link>
-
-            <Link
-              to="/about"
-              className="text-slate-300 hover:text-cyan-400 transition"
-            >
-              About
-            </Link>
-
-            <Link
-              to="/contact"
-              className="text-slate-300 hover:text-cyan-400 transition"
-            >
-              Contact
-            </Link>
-
-          </div>
-
-          {/* RIGHT BUTTON */}
-
-          <div className="hidden lg:block">
-
-            <button className="
-h-[48px]
-px-8
-rounded-xl
-bg-cyan-500 hover:bg-cyan-400 transition-all duration-300 font-semibold shadow-lg shadow-cyan-500/30
+bg-clip-text
+text-transparent
 ">
 
-              Explore
+Hub
 
-            </button>
+</span>
 
-          </div>
+</Link>
 
-          {/* MOBILE BUTTON */}
 
-          <button
-            onClick={() => setOpen(!open)}
-            className="lg:hidden text-3xl text-white"
-          >
-            ☰
-          </button>
+{/* DESKTOP MENU */}
 
-        </div>
+<div className="
+hidden
+lg:flex
 
-        {/* MOBILE MENU */}
+items-center
 
-        {open && (
+gap-10
 
-          <div className="mt-4 backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl p-6 flex flex-col gap-5 lg:hidden shadow-2xl">
+text-sm
+font-semibold
+">
 
-            <Link
-              to="/"
-              className="text-slate-300 hover:text-cyan-400"
-            >
-              Home
-            </Link>
+<Link
+to="/"
+className="
+text-slate-300
+hover:text-cyan-400
+transition
+"
+>
 
-            <Link
-              to="/notes"
-              className="text-slate-300 hover:text-cyan-400"
-            >
-              Notes
-            </Link>
+Home
 
-            <Link
-              to="/pyqs"
-              className="text-slate-300 hover:text-cyan-400"
-            >
-              PYQs
-            </Link>
+</Link>
 
-            <Link
-              to="/books"
-              className="text-slate-300 hover:text-cyan-400"
-            >
-              Books
-            </Link>
 
-            <Link
-              to="/about"
-              className="text-slate-300 hover:text-cyan-400"
-            >
-              About
-            </Link>
+<Link
+to="/about"
+className="
+text-slate-300
+hover:text-cyan-400
+transition
+"
+>
 
-            <Link
-              to="/contact"
-              className="text-slate-300 hover:text-cyan-400"
-            >
-              Contact
-            </Link>
+About
 
-          </div>
+</Link>
 
-        )}
 
-      </div>
+<Link
+to="/contact"
+className="
+text-slate-300
+hover:text-cyan-400
+transition
+"
+>
 
-    </nav>
+Contact
 
-  );
+</Link>
+
+
+<Link
+to="/privacy-policy"
+className="
+text-slate-300
+hover:text-cyan-400
+transition
+"
+>
+
+Privacy Policy
+
+</Link>
+
+
+<Link
+to="/terms"
+className="
+text-slate-300
+hover:text-cyan-400
+transition
+"
+>
+
+Terms
+
+</Link>
+
+
+<Link
+to="/disclaimer"
+className="
+text-slate-300
+hover:text-cyan-400
+transition
+"
+>
+
+Disclaimer
+
+</Link>
+
+</div>
+
+
+{/* RIGHT BUTTON */}
+
+<div className="hidden lg:block">
+
+<button
+className="
+px-7
+py-3
+
+rounded-xl
+
+bg-cyan-500
+
+hover:bg-cyan-400
+
+font-semibold
+
+transition
+"
+>
+
+Explore
+
+</button>
+
+</div>
+
+
+{/* MOBILE BUTTON */}
+
+<button
+
+onClick={()=>setOpen(!open)}
+
+className="
+lg:hidden
+
+text-3xl
+
+text-white
+"
+
+>
+
+☰
+
+</button>
+
+</div>
+
+
+{/* MOBILE MENU */}
+
+{open && (
+
+<div
+className="
+lg:hidden
+
+mx-4
+mt-3
+
+rounded-3xl
+
+backdrop-blur-xl
+
+bg-[#0B1224]/95
+
+border
+border-white/10
+
+p-6
+
+flex
+flex-col
+
+gap-5
+
+shadow-2xl
+"
+>
+
+<Link
+to="/"
+onClick={()=>setOpen(false)}
+className="text-slate-300"
+>
+
+Home
+
+</Link>
+
+
+<Link
+to="/about"
+onClick={()=>setOpen(false)}
+className="text-slate-300"
+>
+
+About
+
+</Link>
+
+
+<Link
+to="/contact"
+onClick={()=>setOpen(false)}
+className="text-slate-300"
+>
+
+Contact
+
+</Link>
+
+
+<Link
+to="/privacy-policy"
+onClick={()=>setOpen(false)}
+className="text-slate-300"
+>
+
+Privacy Policy
+
+</Link>
+
+
+<Link
+to="/terms"
+onClick={()=>setOpen(false)}
+className="text-slate-300"
+>
+
+Terms
+
+</Link>
+
+
+<Link
+to="/disclaimer"
+onClick={()=>setOpen(false)}
+className="text-slate-300"
+>
+
+Disclaimer
+
+</Link>
+
+</div>
+
+)}
+
+</div>
+
+</nav>
+
+);
 
 }

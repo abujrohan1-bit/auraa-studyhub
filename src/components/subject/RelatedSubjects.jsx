@@ -1,69 +1,77 @@
 import { Link, useParams } from "react-router-dom";
-import { subjects } from "../../data/subjects";
+import { subjectDetails } from "../../data/subjectDetails";
 
 export default function RelatedSubjects() {
-  const { subject } = useParams();
 
-  const currentSubject = subjects.find(
-    (item) => item.slug === subject
-  );
+const { subjectSlug } = useParams();
 
-  if (!currentSubject) return null;
+const current =
+subjectDetails[subjectSlug];
 
-  const relatedSubjects = subjects
-    .filter(
-      (item) =>
-        item.branch === currentSubject.branch &&
-        item.semester === currentSubject.semester &&
-        item.slug !== currentSubject.slug
-    )
-    .slice(0, 4);
+if (!current) return null;
 
-  return (
-    <section
-      className="
-      bg-white/5
-      border
-      border-white/10
-      rounded-3xl
-      p-6
-      "
-    >
-      <h2 className="text-2xl font-bold mb-6">
-        Related Subjects
-      </h2>
+const relatedSubjects =
+Object.values(subjectDetails)
 
-      <div className="grid md:grid-cols-2 gap-4">
+.filter(
+(item)=>
 
-        {relatedSubjects.map((item) => (
+item.branch===current.branch &&
+item.semester===current.semester &&
+item.slug!==subjectSlug
+)
 
-          <Link
-            key={item.slug}
-            to={item.link}
-            className="
-              p-5
-              rounded-2xl
-              bg-white/5
-              border
-              border-white/10
-              hover:border-cyan-400/40
-              hover:bg-white/10
-              transition-all
-            "
-          >
-            <h3 className="font-semibold text-lg">
-              {item.title}
-            </h3>
+.slice(0,4);
 
-            <p className="text-slate-400 text-sm mt-2">
-              {item.semester}
-            </p>
-          </Link>
+if (relatedSubjects.length===0)
+return null;
 
-        ))}
+return (
 
-      </div>
+<section className="space-y-5">
 
-    </section>
-  );
+<h2 className="text-2xl font-bold">
+Related Subjects
+</h2>
+
+<div className="grid md:grid-cols-2 gap-4">
+
+{relatedSubjects.map((subject)=>(
+
+<Link
+
+key={subject.slug}
+
+to={`/subject/${subject.branch.toLowerCase().replaceAll(" ","-")}/${subject.semester.toLowerCase().replaceAll(" ","-")}/${subject.slug}`}
+
+className="
+bg-white/5
+border
+border-white/10
+rounded-2xl
+p-5
+hover:border-cyan-400/30
+transition
+"
+
+>
+
+<h3 className="font-semibold">
+{subject.title}
+</h3>
+
+<p className="text-slate-400 text-sm mt-2">
+{subject.code}
+</p>
+
+</Link>
+
+))}
+
+</div>
+
+</section>
+
+);
+
 }
