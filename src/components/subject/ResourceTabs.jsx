@@ -5,7 +5,7 @@ export default function ResourceTabs({
   const tabs = [
     "Notes",
     "PYQs",
-    "Books",
+    "PYQs Models",
     "Important Questions",
   ];
 

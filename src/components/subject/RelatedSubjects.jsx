@@ -18,7 +18,7 @@ Object.values(subjectDetails)
 
 item.branch===current.branch &&
 item.semester===current.semester &&
-item.slug!==subjectSlug
+item.slug && item.slug!==subjectSlug
 )
 
 .slice(0,4);

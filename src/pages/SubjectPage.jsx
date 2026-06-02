@@ -145,7 +145,7 @@ setActiveTab={setActiveTab}
 
 {activeTab==="PYQs" && <PYQList/>}
 
-{activeTab==="Books" && <BooksList/>}
+{activeTab==="PYQs Models" && <BooksList/>}
 
 {activeTab==="Important Questions" &&
 <ImportantQuestions/>

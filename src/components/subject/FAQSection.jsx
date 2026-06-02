@@ -1,78 +1,96 @@
+import { useParams } from "react-router-dom";
+import { subjectDetails } from "../../data/subjectDetails";
+
 export default function FAQSection() {
-  const faqs = [
-    {
-      question: "What is DBMS?",
-      answer:
-        "DBMS stands for Database Management System. It is software used to store, manage and retrieve data efficiently.",
-    },
 
-    {
-      question: "Is DBMS difficult?",
-      answer:
-        "DBMS is considered one of the easiest core computer engineering subjects if concepts are understood properly.",
-    },
+const { subjectSlug } = useParams();
 
-    {
-      question: "Which book is best for DBMS?",
-      answer:
-        "Database System Concepts by Silberschatz is one of the most recommended books.",
-    },
+const subject =
+subjectDetails[subjectSlug];
 
-    {
-      question: "How many units are there in DBMS?",
-      answer:
-        "Most universities divide DBMS into 5 to 6 units depending on the syllabus.",
-    },
+if(!subject) return null;
 
-    {
-      question: "Are PYQs important for DBMS?",
-      answer:
-        "Yes. Previous year question papers help identify frequently asked exam questions.",
-    },
-  ];
+const faqs=[
 
-  return (
-    <div
-      className="
-      bg-white/5
-      border
-      border-white/10
-      rounded-3xl
-      p-6
-      "
-    >
-      <h2 className="text-2xl font-bold mb-6">
-        Frequently Asked Questions
-      </h2>
+{
+q:`What is ${subject.title}?`,
+a:`${subject.title} is an important subject in ${subject.branch} covering core concepts required for academic and industry applications.`,
+},
 
-      <div className="space-y-4">
+{
+q:`Is ${subject.title} difficult?`,
+a:`${subject.title} becomes easier when concepts are practiced regularly with notes, PYQs and examples.`,
+},
 
-        {faqs.map((faq, index) => (
+{
+q:`How many units are there in ${subject.title}?`,
+a:`Usually ${subject.title} contains around 5 to 6 units depending upon university syllabus.`,
+},
 
-          <div
-            key={index}
-            className="
-              p-5
-              rounded-2xl
-              border
-              border-white/10
-              bg-white/5
-            "
-          >
+{
+q:`Why should I study ${subject.title}?`,
+a:`${subject.title} helps build strong technical knowledge useful for exams, projects and placements.`,
+},
 
-            <h3 className="font-bold">
-              {faq.question}
-            </h3>
+];
 
-            <p className="text-slate-400 mt-3">
-              {faq.answer}
-            </p>
+return(
 
-          </div>
+<section
+className="
+bg-white/5
+border
+border-white/10
+rounded-3xl
+p-6
+space-y-4
+"
+>
 
-        ))}
+<h2 className="text-2xl font-bold">
 
-      </div>
-    </div>
-  );
+Frequently Asked Questions
+
+</h2>
+
+<div className="space-y-4">
+
+{faqs.map((faq,index)=>(
+
+<div
+
+key={index}
+
+className="
+bg-white/5
+border
+border-white/10
+rounded-2xl
+p-4
+"
+
+>
+
+<h3 className="font-semibold">
+
+{faq.q}
+
+</h3>
+
+<p className="text-slate-400 mt-2">
+
+{faq.a}
+
+</p>
+
+</div>
+
+))}
+
+</div>
+
+</section>
+
+);
+
 }
