@@ -17,7 +17,7 @@ const [open,setOpen]=useState(false);
 const links={
 
 whatsapp:
-"https://chat.whatsapp.com/channel/0029VbD2t9jCsU9YSo9H020W",
+"https://whatsapp.com/channel/0029VbD2t9jCsU9YSo9H020W",
 
 telegram:
 "https://t.me/+chHSjMXsj_c3MGFl",
