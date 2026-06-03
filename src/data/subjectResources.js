@@ -238,35 +238,35 @@ export const subjectResources = {
     {
       title: "Unit 1 - Introduction to DBMS",
       description: "Database concepts and architecture.",
-      pdf: "/Computer Engineering/Sem-4/DBMS/notes/unit1.pdf",
+      pdf: "https://drive.google.com/file/d/1zHNUeE7sMfQy3aNZKx446IE8GOros2ot/preview",
     },
     {
       title: "Unit 2 - ER Model",
-      description: "Comming soon.",
-      pdf: "",
+      description: "",
+      pdf: "https://drive.google.com/file/d/1_0xS4APu9IbtxzrF6nGUId9ZbhUtmkgL/preview",
     },
   ],
 
   pyqs: [
     {
       title: "Unit I- Introduction to Database Management System",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs/unit1.pdf",
+      pdf: "https://drive.google.com/file/d/1DTcuxFeDV0lj0v17_8kyFxy3Ud7Hyd45/preview",
     },
     {
       title: "Unit II- SQL and PL/SQL",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs/unit2.pdf",
+      pdf: "https://drive.google.com/file/d/1qFRVcVahQ2iGXC2bXJPBU7TrJldVmnZr/preview",
     },
       {
       title: "Unit III- Relational Database Design",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs/unit3.pdf",
+      pdf: "https://drive.google.com/file/d/17abI9yybgWKxLUoR1LAC3b62yHsxf_8x/preview",
     },
       {
       title: "Unit IV- Database Transactions",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs/unit4.pdf",
+      pdf: "https://drive.google.com/file/d/1v-33ZLm-a6w7Xt5PuMGmTW9P1chavt6l/preview",
     },
       {
       title: "Unit V- NoSQL Database",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs/unit5.pdf",
+      pdf: "https://drive.google.com/file/d/186zR5XYn4EGBKRiAr469xvoBbgHP2Hkj/preview",
     },
   ],
 
@@ -274,52 +274,52 @@ export const subjectResources = {
     {
       title: "DBMS-actober-2022",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-actober-2022.pdf",
+      pdf: "https://drive.google.com/file/d/1FHlbBsqkFF3CXOMCu7kv2UyUExDoHkSp/preview",
     },
       {
       title: "DBMS-may2022",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-may2022.pdf",
+      pdf: "https://drive.google.com/file/d/1jgIuLaaRyDLd3aZUxTahf1LH__vhQH_x/preview",
     },
       {
       title: "DBMS-2023-october",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-2023-october.pdf",
+      pdf: "https://drive.google.com/file/d/1yMTMBO5zBXSDJ87LnoN7j9j8Vusk2pbb/preview",
     },
       {
       title: "DBMS-2023-november",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-2023-november.pdf",
+      pdf: "https://drive.google.com/file/d/1nYi4nnn1khNw31WniaOGxe4vidx_rrjE/preview",
     },
       {
       title: "DBMS-may-2023",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-may-2023.pdf",
+      pdf: "https://drive.google.com/file/d/1VMc2DIJsOo2UO9faC832nX2VX2x_aMog/preview",
     },
       {
       title: "DBMS-2024-may",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-2024-may.pdf",
+      pdf: "https://drive.google.com/file/d/1ZG0iYApYBz51YQV_rkaz1Ew_IQhHJ-c_/preview",
     },
       {
       title: "DBMS-2024-october",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-2024-october.pdf",
+      pdf: "https://drive.google.com/file/d/1vFLTpwFPUBAycMRTlK48UplbdSI5pT8Z/preview",
     },
       {
       title: "DBMS-2025-Aug",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-2025-Aug.pdf",
+      pdf: "https://drive.google.com/file/d/1fica8SISxa0xcQv3rN8CIeF1AjHguQ3s/preview",
     }, 
       {
       title: "DBMS-2025-may",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-2025-may.pdf",
+      pdf: "https://drive.google.com/file/d/1ABCc7_5jNgH9uROFxhQdpGpB42VZ7cZM/preview",
     }, 
       {
       title: "DBMS-november-2022",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/DBMS/PYQs Model/DBMS-november-2022.pdf",
+      pdf: "https://drive.google.com/file/d/11MHpMbDMXbjmAC4malAOhUShAEXf9oYk/preview",
     }, 
   ],
 
@@ -389,17 +389,17 @@ export const subjectResources = {
     {
       title: "Unit I- Computer Evolution and Performance ",
       description: "Computer architecture fundamentals.",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/notes/Unit 1 Computer Evolution and Performance.pdf",
+      pdf: "https://drive.google.com/file/d/10iRJzNp6wRj9ysuVk-57-lpTZMY1EZJe/preview",
     },
     {
       title: "Unit 2 - memory management",
       description: "Memory management techniques.",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/notes/unit 2 memory management.pdf",
+      pdf: "https://drive.google.com/file/d/12T710tHbbCdEUqgxeLsuqsaWSw9BDNCs/preview",
     },
   {
       title: "Unit III- Introduction to 8086 Microprocessor",
       description: "8086 Microprocessor.",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/notes/Unit III- Introduction to 8086 Microprocessor.pdf",
+      pdf: "https://drive.google.com/file/d/18mob0H9dfcwP_byjp-mvD0_C7EwwdwZI/preview",
     },
         {
       title: "Unit IV- Memory Organization and Interrupts ",
@@ -409,30 +409,30 @@ export const subjectResources = {
         {
       title: "Unit V- Parallel Organization",
       description: "Multiprocessor.",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/notes/Unit V- Parallel Organization.pdf",
+      pdf: "https://drive.google.com/file/d/1Cd6zk4sunhQym8srNcH-uxMxVzo8UTQd/preview",
     },
   ],
 
   pyqs: [
     {
       title: "Unit I- Computer Evolution and Performance",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs/unit1.pdf",
+      pdf: "https://drive.google.com/file/d/1HC7R1lgZ9uIGtn7R7F6mE7xDM4p13mTn/preview",
     },
     {
       title: "Unit 2 - memory management",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs/unit2.pdf",
+      pdf: "https://drive.google.com/file/d/1VYyMAJnO9XwNW7YUBUBO8reO_jyus8fv/preview",
     },
         {
       title: "Unit III- Introduction to 8086 Microprocessor",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs/unit3.pdf",
+      pdf: "https://drive.google.com/file/d/1yy9apTg6ALXJNOBYIGi2y0OgXUun6_09/preview",
     },
         {
       title: "Unit IV- Memory Organization and Interrupts",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs/unit4.pdf",
+      pdf: "https://drive.google.com/file/d/1MRacYTM_ql_xO23v4D8ikmCK3tenjOEZ/preview",
     },
         {
       title: "Unit V- Parallel Organization",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs/unit5.pdf",
+      pdf: "https://drive.google.com/file/d/1yFqyJtdKKqqrHnOFaJnyE1I37iD8HPVe/preview",
     },
   ],
 
@@ -441,37 +441,37 @@ export const subjectResources = {
         {
       title: "MICROPROCESSOR-25-MAY",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs Model/MICROPROCESSOR-25-MAY.pdf",
+      pdf: "https://drive.google.com/file/d/1Gpzyf2CSTtktwpYmAOKAyeQ7WpMdzHjq/preview",
     },
         {
       title: "MICROPROCESSOR-24-NOV",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs Model/MICROPROCESSOR-24-NOV.pdf",
+      pdf: "https://drive.google.com/file/d/11sGdQDf6WJNVuzVnr_CPa2js8vbQAT0y/preview",
     },
         {
       title: "MICROPROCESSOR-24-MAY",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs Model/MICROPROCESSOR-24-MAY.pdf",
+      pdf: "https://drive.google.com/file/d/1E9N4v8c5lRwPHadtPoB4acsuo_RO0ObK/preview",
     },
         {
       title: "MICROPROCESSOR-23-NOV",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs Model/MICROPROCESSOR-23-NOV.pdf",
+      pdf: "https://drive.google.com/file/d/1UkNwPhcm7Y-l0kziGUn9UYhmQorYaBMi/preview",
     },
         {
       title: "MICROPROCESSOR-23-MAY",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs Model/MICROPROCESSOR-23-MAY.pdf",
+      pdf: "https://drive.google.com/file/d/17u2ecJmeMFqiMujEpKPlF-aVt8aVRZtO/preview",
     },
         {
       title: "MICROPROCESSOR-22-MAY",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs Model/MICROPROCESSOR-22-MAY.pdf",
+      pdf: "https://drive.google.com/file/d/1fiZK_aw1T7IbYWg0lh-SmpaHASn_gM9o/preview",
     },
         {
       title: "MICROPROCESSOR-22-DEC",
       author: "",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/PYQs Model/MICROPROCESSOR-22-DEC.pdf",
+      pdf: "https://drive.google.com/file/d/1ycb5167YD3PF6l9Vj5KhII-pENMcbpql/preview",
     },
   ],
 
@@ -494,17 +494,17 @@ export const subjectResources = {
     {
       title: "Unit 1 - Introduction to IoT",
       description: "IoT architecture and applications.",
-      pdf: "/Computer Engineering/Sem-4/IOT/notes/IOT unit1.pdf",
+      pdf: "https://drive.google.com/file/d/1CKmqivnizdzNCaYR1V2d0okvKYdyhJEm/preview",
     },
     {
       title: "Unit II- Introduction to Sensors, Actuator",
       description: "Sensors and communication protocols.", 
-      pdf: "/Computer Engineering/Sem-4/IOT/notes/IOT unit2.pdf",
+      pdf: "https://drive.google.com/file/d/1mELVB7e6s8kLGfsSa4nC3uJt5ujzNj_6/preview",
     },
         {
       title: "Unit III- Protocols for IoT ",
       description: "Sensors and communication protocols.", 
-      pdf: "/Computer Engineering/Sem-4/IOT/notes/IOT unit3.pdf",
+      pdf: "https://drive.google.com/file/d/1Ln0EshJ3BM9xoc9O1WcUUF_36tQFWmQW/preview",
     },
         {
       title: "Unit IV-Cloud for IoT",
@@ -522,23 +522,23 @@ export const subjectResources = {
   pyqs: [
     {
       title: "Unit I- Introduction to IoT: IMP Questions ",
-      pdf: "/Computer Engineering/Sem-4/IOT/PYQs/unit1.pdf",
+      pdf: "https://drive.google.com/file/d/1h0nY0AhahyP-1dT4tDUDFx5I9LCs9D1x/preview",
     },
     {
       title: "Unit II- Introduction to Sensors, Actuator:- IMP Questions ",
-      pdf: "/Computer Engineering/Sem-4/IOT/PYQs/unit2.pdf",
+      pdf: "https://drive.google.com/file/d/1OrCRtnyVL-eNU9BmyBj0Un6gj6p-QFVi/preview",
     },
         {
       title: "Unit III- Protocols for IoT :- IMP Questions ",
-      pdf: "/Computer Engineering/Sem-4/IOT/PYQs/unit3.pdf",
+      pdf: "https://drive.google.com/file/d/1L3sND5QZyjvjzruDiKEigFKzgro1r98n/preview",
     },
         {
       title: "Unit IV-Cloud for IoT:- IMP Questions ",
-      pdf: "/Computer Engineering/Sem-4/IOT/PYQs/unit4.pdf",
+      pdf: "https://drive.google.com/file/d/1sJ0aEWOTim_GF3ygEQzr0Qh28p4QVNOo/preview",
     },
         {
       title: "Unit V-IoT Applications :- IMP Questions ",
-      pdf: "/Computer Engineering/Sem-4/IOT/PYQs/unit5.pdf",
+      pdf: "https://drive.google.com/file/d/1emHZ58966Koxk4cSvLl-Ml4lg9PBaNFY/preview",
     },
   ],
 
