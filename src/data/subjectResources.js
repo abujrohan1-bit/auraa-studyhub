@@ -140,27 +140,28 @@ export const subjectResources = {
   ],
 },
 
+
 "com-digital-electronics-and-logic-design": {
   notes: [
     {
       title: "Unit I- Boolean Algebra and Simplification Techniques",
       description: "Basic logic gates and applications.",
-      pdf: "/Computer Engineering/Sem-3/DELD/notes/Unit 1 Boolean algebra and simplification techniques.pdf",
+      pdf: "https://drive.google.com/file/d/1aptDR9X5ZgAAtnjphhGKJ-KI-2sLHBuI/preview",
     },
     {
       title: "Unit II- Combinational Logic Design",
       description: "Flip flops and counters.",
-      pdf: "/Computer Engineering/Sem-3/DELD/notes/Unit II- Combinational Logic Design.pdf",
+      pdf: "https://drive.google.com/file/d/1zUZh76W0PNQ1uJRsJJJSQmnCzHbtBHEm/preview",
     },
      {
       title: "Unit III- Sequential Circuits",
       description: "Flip flops and counters.",
-      pdf: "/Computer Engineering/Sem-3/DELD/notes/Unit III- Sequential Circuits.pdf",
+      pdf: "https://drive.google.com/file/d/1tNquEV25FelBeA-SOKoDcEbyBy9BbUVU/preview",
     },
      {
       title: "Unit IV- Algorithmic State Machines and Logic Families",
       description: "Flip flops and counters.",
-      pdf: "/Computer Engineering/Sem-3/DELD/notes/Unit IV- Algorithmic State Machines and Logic Families.pdf",
+      pdf: "https://drive.google.com/file/d/1moCpnJJJ3QHmU6om8k1wD20_JSYL_qQ5/preview",
     },
   ],
 
@@ -179,42 +180,42 @@ export const subjectResources = {
     {
       title: "DELD-25-nov",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-25-nov.pdf",
+      pdf: "https://drive.google.com/file/d/1kxZj5Txa2V4jjseHdfbh43AcDo-kLmeo/preview",
     },
         {
       title: "DELD-25-oct",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-25-oct.pdf",
+      pdf: "https://drive.google.com/file/d/1G6QjncsAVLJ4Ry8RQ2xhgjCgV6qfEZ9R/preview",
     },
         {
       title: "DELD-25-may",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-25-may.pdf",
+      pdf: "https://drive.google.com/file/d/166Mcc_fxqP1-tuaA6SA42zMvD9JpERIc/preview",
     },
         {
       title: "DELD-24-nov",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-24-nov.pdf",
+      pdf: "https://drive.google.com/file/d/1iGXmz62Jr6oaSFjZyfxyD4_s9usk1uHU/preview",
     },
         {
       title: "DELD-24-oct",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-24-oct.pdf",
+      pdf: "https://drive.google.com/file/d/1QDgwB6nKsi04g0DiF4hnQNEEwo_GxqrP/preview",
     },
         {
       title: "DELD-24-may",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-24-may.pdf",
+      pdf: "https://drive.google.com/file/d/1KUtgXZj_2rpDsmlvEqBHtRCzC4GYkpVD/preview",
     },
         {
       title: "DELD-23-oct",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-23-oct.pdf",
+      pdf: "https://drive.google.com/file/d/1P6hJl4bE7lo6uiciBV_5D6BgFPZPQ0at/preview",
     },
         {
       title: "DELD-23-may",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-23-may.pdf",
+      pdf: "https://drive.google.com/file/d/1sl-xwQV5wPcpZ5tecEc-ETYRZ5hH0Q-D/preview",
     },
   ],
 
@@ -233,15 +234,21 @@ export const subjectResources = {
 },
 
 // CM 4th sem
+
 "com-database-management-systems": {
   notes: [
     {
       title: "Unit 1 - Introduction to DBMS",
       description: "Database concepts and architecture.",
+      pdf: "https://drive.google.com/file/d/1UYKXVkil0b4Rhvr2VmWRqjfioBRjf0NU/preview",
+    },
+      {
+      title: "Unit 1 - Introduction to DBMS",
+      description: "Database concepts and architecture.",
       pdf: "https://drive.google.com/file/d/1zHNUeE7sMfQy3aNZKx446IE8GOros2ot/preview",
     },
     {
-      title: "Unit 2 - ER Model",
+      title: "Unit II- SQL and PL/SQL",
       description: "",
       pdf: "https://drive.google.com/file/d/1_0xS4APu9IbtxzrF6nGUId9ZbhUtmkgL/preview",
     },
@@ -340,33 +347,40 @@ export const subjectResources = {
 "com-discrete-mathematics": {
   notes: [
     {
-      title: "Unit 1 - Logic",
+      title: "Unit I- Set and Propositions",
       description: "Statements and propositions.",
-      pdf: "/sample.pdf",
+      pdf: "https://drive.google.com/file/d/1te-SSuGIGj7s4WzeJCqq-V4Fkj1yJcPu/preview",
     },
     {
-      title: "Unit 2 - Sets",
-      description: "Set operations and relations.",
-      pdf: "/sample.pdf",
+      title: "Unit II- Relations and Functions ",
+      description: "Relations and functions types.",
+      pdf: "https://drive.google.com/file/d/1hcKi_cHHftxVCq0RHYJan9L0ahiBwqGb/preview",
+    },
+        {
+      title: "Unit III- Introduction to Trees",
+      description: "Tree.",
+      pdf: "https://drive.google.com/file/d/1fHpVb3sp4W6EDP2rgKFXKpo1O0hi58-n/preview",
+    },
+        {
+      title: "Unit IV- Introduction to Graph Theory",
+      description: "Graph theory basics.",
+      pdf: "https://drive.google.com/file/d/1CzlzsghYrQqwPnVBQppeaYLeS43mpXz4/preview",
     },
   ],
 
   pyqs: [
     {
-      title: "Discrete Mathematics End Semester 2024",
-      pdf: "/sample.pdf",
+      title: "",
+      pdf: "Previous year question papers will be added in notes sections",
     },
-    {
-      title: "Discrete Mathematics End Semester 2023",
-      pdf: "/sample.pdf",
-    },
+ 
   ],
 
   books: [
     {
-      title: "Discrete Mathematics",
-      author: "Kenneth Rosen",
-      pdf: "/sample.pdf",
+      title: "",
+      author: "Previous year question papers will be added in notes sections",
+      pdf: "",
     },
   ],
 
@@ -404,7 +418,7 @@ export const subjectResources = {
         {
       title: "Unit IV- Memory Organization and Interrupts ",
       description: "Comming soon.",
-      pdf: "/Computer Engineering/Sem-4/CO&MP/notes/Unit IV- Memory Organization and Interrupts .pdf",
+      pdf: "",   // Remaining notes will be added soon
     },
         {
       title: "Unit V- Parallel Organization",
@@ -544,9 +558,9 @@ export const subjectResources = {
 
   books: [
     {
-      title: "Internet Of Things",
-      author: "Arshdeep Bahga",
-      pdf: "/sample.pdf",
+      title: "Previous Year Question's are covered in notes section",
+      author: "",
+      pdf: "",
     },
   ],
 
@@ -635,127 +649,288 @@ importantQuestions:[
 },
 
 "digital-electronics-and-logic-design": {
+
+notes: [
+{
+title: "Unit I- Boolean Algebra and Simplification Techniques",
+description: "Basic logic gates and applications.",
+pdf: "https://drive.google.com/file/d/1aptDR9X5ZgAAtnjphhGKJ-KI-2sLHBuI/preview",
+},
+
+{
+title: "Unit II- Combinational Logic Design",
+description: "Combinational circuits and applications.",
+pdf: "https://drive.google.com/file/d/1zUZh76W0PNQ1uJRsJJJSQmnCzHbtBHEm/preview",
+},
+
+{
+title: "Unit III- Sequential Circuits",
+description: "Flip flops and counters.",
+pdf: "https://drive.google.com/file/d/1tNquEV25FelBeA-SOKoDcEbyBy9BbUVU/preview",
+},
+
+{
+title: "Unit IV- Algorithmic State Machines and Logic Families",
+description: "ASM charts and logic families.",
+pdf: "https://drive.google.com/file/d/1moCpnJJJ3QHmU6om8k1wD20_JSYL_qQ5/preview",
+},
+
+],
+
+pyqs: [],
+
+books: [
+
+{
+title:"DELD-25-nov",
+author:"",
+pdf:"https://drive.google.com/file/d/1kxZj5Txa2V4jjseHdfbh43AcDo-kLmeo/preview",
+},
+
+{
+title:"DELD-25-oct",
+author:"",
+pdf:"https://drive.google.com/file/d/1G6QjncsAVLJ4Ry8RQ2xhgjCgV6qfEZ9R/preview",
+},
+
+{
+title:"DELD-25-may",
+author:"",
+pdf:"https://drive.google.com/file/d/166Mcc_fxqP1-tuaA6SA42zMvD9JpERIc/preview",
+},
+
+{
+title:"DELD-24-nov",
+author:"",
+pdf:"https://drive.google.com/file/d/1iGXmz62Jr6oaSFjZyfxyD4_s9usk1uHU/preview",
+},
+
+{
+title:"DELD-24-oct",
+author:"",
+pdf:"https://drive.google.com/file/d/1QDgwB6nKsi04g0DiF4hnQNEEwo_GxqrP/preview",
+},
+
+{
+title:"DELD-24-may",
+author:"",
+pdf:"https://drive.google.com/file/d/1KUtgXZj_2rpDsmlvEqBHtRCzC4GYkpVD/preview",
+},
+
+{
+title:"DELD-23-oct",
+author:"",
+pdf:"https://drive.google.com/file/d/1P6hJl4bE7lo6uiciBV_5D6BgFPZPQ0at/preview",
+},
+
+{
+title:"DELD-23-may",
+author:"",
+pdf:"https://drive.google.com/file/d/1sl-xwQV5wPcpZ5tecEc-ETYRZ5hH0Q-D/preview",
+},
+
+],
+
+importantQuestions: [
+
+{ question:"Explain logic gates." },
+{ question:"Explain Boolean algebra." },
+{ question:"Explain K maps." },
+{ question:"Explain combinational circuits." },
+{ question:"Explain multiplexers." },
+{ question:"Explain encoders and decoders." },
+{ question:"Explain flip flops." },
+{ question:"Explain counters." },
+{ question:"Explain registers." },
+{ question:"Explain sequential circuits." },
+
+],
+
+},
+
+// AIDS 4th sem
+
+"aids-database-management-systems": {
   notes: [
     {
-      title: "Unit I- Boolean Algebra and Simplification Techniques",
-      description: "Basic logic gates and applications.",
-      pdf: "/Computer Engineering/Sem-3/DELD/notes/Unit 1 Boolean algebra and simplification techniques.pdf",
+      title: "Unit I- Foundations of Data Management and ER Model ",
+      description: "Database concepts and architecture.",
+      pdf: "https://drive.google.com/file/d/1UYKXVkil0b4Rhvr2VmWRqjfioBRjf0NU/preview",
+    },
+      {
+      title: "Unit I- Foundations of Data Management and ER Model ",
+      description: "Database concepts and architecture.",
+      pdf: "https://drive.google.com/file/d/1zHNUeE7sMfQy3aNZKx446IE8GOros2ot/preview",
     },
     {
-      title: "Unit II- Combinational Logic Design",
-      description: "Flip flops and counters.",
-      pdf: "/Computer Engineering/Sem-3/DELD/notes/Unit II- Combinational Logic Design.pdf",
-    },
-     {
-      title: "Unit III- Sequential Circuits",
-      description: "Flip flops and counters.",
-      pdf: "/Computer Engineering/Sem-3/DELD/notes/Unit III- Sequential Circuits.pdf",
-    },
-     {
-      title: "Unit IV- Algorithmic State Machines and Logic Families",
-      description: "Flip flops and counters.",
-      pdf: "/Computer Engineering/Sem-3/DELD/notes/Unit IV- Algorithmic State Machines and Logic Families.pdf",
+      title: "Unit II- Smart Data Querying with SQL & PL/SQL",
+      description: "",
+      pdf: "https://drive.google.com/file/d/1_0xS4APu9IbtxzrF6nGUId9ZbhUtmkgL/preview",
     },
   ],
 
   pyqs: [
     {
-      title: "",
-      pdf: "",
+      title: "Unit I- Foundations of Data Management and ER Model ",
+      pdf: "https://drive.google.com/file/d/1DTcuxFeDV0lj0v17_8kyFxy3Ud7Hyd45/preview",
     },
     {
-      title: "",
-      pdf: "",
+      title: "Unit II- Smart Data Querying with SQL & PL/SQL",
+      pdf: "https://drive.google.com/file/d/1qFRVcVahQ2iGXC2bXJPBU7TrJldVmnZr/preview",
+    },
+      {
+      title: "Unit III-Relational DBMS and Intelligent Querry Processing ",
+      pdf: "https://drive.google.com/file/d/17abI9yybgWKxLUoR1LAC3b62yHsxf_8x/preview",
+    },
+      {
+      title: "Unit IV- Transaction Management & Analytics ",
+      pdf: "https://drive.google.com/file/d/1v-33ZLm-a6w7Xt5PuMGmTW9P1chavt6l/preview",
+    },
+      {
+      title: "Unit V- NoSQL & Intelligent Data Processing ",
+      pdf: "https://drive.google.com/file/d/186zR5XYn4EGBKRiAr469xvoBbgHP2Hkj/preview",
     },
   ],
 
   books: [
     {
-      title: "DELD-25-nov",
+      title: "DBMS-actober-2022",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-25-nov.pdf",
+      pdf: "https://drive.google.com/file/d/1FHlbBsqkFF3CXOMCu7kv2UyUExDoHkSp/preview",
     },
-        {
-      title: "DELD-25-oct",
+      {
+      title: "DBMS-may2022",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-25-oct.pdf",
+      pdf: "https://drive.google.com/file/d/1jgIuLaaRyDLd3aZUxTahf1LH__vhQH_x/preview",
     },
-        {
-      title: "DELD-25-may",
+      {
+      title: "DBMS-2023-october",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-25-may.pdf",
+      pdf: "https://drive.google.com/file/d/1yMTMBO5zBXSDJ87LnoN7j9j8Vusk2pbb/preview",
     },
-        {
-      title: "DELD-24-nov",
+      {
+      title: "DBMS-2023-november",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-24-nov.pdf",
+      pdf: "https://drive.google.com/file/d/1nYi4nnn1khNw31WniaOGxe4vidx_rrjE/preview",
     },
-        {
-      title: "DELD-24-oct",
+      {
+      title: "DBMS-may-2023",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-24-oct.pdf",
+      pdf: "https://drive.google.com/file/d/1VMc2DIJsOo2UO9faC832nX2VX2x_aMog/preview",
     },
-        {
-      title: "DELD-24-may",
+      {
+      title: "DBMS-2024-may",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-24-may.pdf",
+      pdf: "https://drive.google.com/file/d/1ZG0iYApYBz51YQV_rkaz1Ew_IQhHJ-c_/preview",
     },
-        {
-      title: "DELD-23-oct",
+      {
+      title: "DBMS-2024-october",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-23-oct.pdf",
+      pdf: "https://drive.google.com/file/d/1vFLTpwFPUBAycMRTlK48UplbdSI5pT8Z/preview",
     },
-        {
-      title: "DELD-23-may",
+      {
+      title: "DBMS-2025-Aug",
       author: "",
-      pdf: "/Computer Engineering/Sem-3/DELD/PYQs Model/DELD-23-may.pdf",
-    },
+      pdf: "https://drive.google.com/file/d/1fica8SISxa0xcQv3rN8CIeF1AjHguQ3s/preview",
+    }, 
+      {
+      title: "DBMS-2025-may",
+      author: "",
+      pdf: "https://drive.google.com/file/d/1ABCc7_5jNgH9uROFxhQdpGpB42VZ7cZM/preview",
+    }, 
+      {
+      title: "DBMS-november-2022",
+      author: "",
+      pdf: "https://drive.google.com/file/d/11MHpMbDMXbjmAC4malAOhUShAEXf9oYk/preview",
+    }, 
   ],
 
   importantQuestions: [
-    { question:"Explain logic gates." },
-    { question:"Explain Boolean algebra." },
-    { question:"Explain K maps." },
-    { question:"Explain combinational circuits." },
-    { question:"Explain multiplexers." },
-    { question:"Explain encoders and decoders." },
-    { question:"Explain flip flops." },
-    { question:"Explain counters." },
-    { question:"Explain registers." },
-    { question:"Explain sequential circuits." },
+    { question:"Explain DBMS architecture." },
+    { question:"Explain normalization." },
+    { question:"Explain ER model." },
+    { question:"Explain transactions." },
+    { question:"Explain ACID properties." },
+    { question:"Explain SQL joins." },
+    { question:"Explain indexing." },
+    { question:"Explain concurrency control." },
+    { question:"Explain database keys." },
+    { question:"Explain query processing." },
   ],
 },
 
-"aids-database-management-systems": {
-notes:[{
-title:"Unit 1",
-description:"Coming Soon",
-pdf:"/sample.pdf"
-}],
-pyqs:[],
-books:[],
-importantQuestions:[
-{question:"Define DBMS and advantages."},
-{question:"Explain ER model."},
-{question:"What is normalization?" },
-{question:"Explain SQL joins."},
-{question:"Define transaction management."},
-{question:"Explain ACID properties."},
-{question:"Difference between DBMS and RDBMS."},
-{question:"Explain indexing."},
-{question:"What is concurrency control?" },
-{question:"Explain database architecture."}
-]
-},
 
 "data-science": {
 notes:[{
-title:"Unit 1",
-description:"Coming Soon",
-pdf:"/sample.pdf"
-}],
-pyqs:[],
-books:[],
+title:"Unit I-Fundamentals of Data Science ",
+description:"",
+pdf:"https://docs.google.com/presentation/d/1MSp2Y-4wQuyFk9n9Ma7lv_Vrz_hSd7Zv/preview"
+},
+{
+title:"Unit II- Applications of Mathematical Statistics  ",
+description:"",
+pdf:"https://drive.google.com/file/d/1AiEmKMrwpULZhEb7wUmnizICxYXx5EqI/preview"
+},
+{
+title:"Unit III- Programming for Data Science  ",
+description:"",
+pdf:"https://drive.google.com/file/d/1XqcAOv4l18ihm8Au7afaAg02N-kbe3C1/preview"
+},
+{
+title:"Unit IV- Data Preprocessing and Visualization ",
+description:"",
+pdf:"https://drive.google.com/file/d/1JUC-5RJDE6OCBZAdHn7qpBahsfKk6rBq/preview"
+},
+{
+title:"Unit V- Automating AI Workflows with Pandas ",
+description:"",
+pdf:"https://drive.google.com/file/d/1Vv4vijDowU-lBSYj1QKgGWbzY38Mi1Qs/preview"
+},
+],
+pyqs:[
+    {
+      title: "Unit-1",
+      pdf: "https://drive.google.com/file/d/1Ffa2SA-_fxdLUdpwbxjB-zGgUFxDwiMn/preview",
+    },
+        {
+      title: "Unit-2",
+      pdf: "https://drive.google.com/file/d/1i3f8VQ-e08VHy64Ursb1xa8x_uGyDz3K/preview",
+    },
+        {
+      title: "Unit-3",
+      pdf: "https://drive.google.com/file/d/17oW6U64fHPqZ5jes662yhmmkpcP__GtE/preview",
+    },
+        {
+      title: "Unit-4",
+      pdf: "https://drive.google.com/file/d/17yfGa8wOY82YcxtQLGmX62e8jc976Ws9/preview",
+    },
+        {
+      title: "Unit-5",
+      pdf: "https://drive.google.com/file/d/1l2bNdhoRavQk0BW0SBKixCT0anKHAbZP/preview",
+    },
+],
+books:[
+   {
+      title: "Data Science-23-may",
+      author: "",
+      pdf: "https://drive.google.com/file/d/1g_tiibboFxbwU1ILdgXrhzP6qqhbPmRb/preview",
+    },
+       {
+      title: "Data Science-24-Dec",
+      author: "",
+      pdf: "https://drive.google.com/file/d/12ndqBUHXVdz_zKHcFiUSWG2uE0wrb-5V/preview",
+    },
+       {
+      title: "Data Science-24-may",
+      author: "",
+      pdf: "https://drive.google.com/file/d/1dF0YHZtvkPmzl8hnJ2VL2YwUuGWGddfO/preview",
+    },
+       {
+      title: "Data Science-25-may",
+      author: "",
+      pdf: "https://drive.google.com/file/d/1dMZH8JQ50hAelQ4vaVfUqYhHRY0s-wHM/preview",
+    },
+],
 importantQuestions:[
 {question:"Define Data Science lifecycle."},
 {question:"Explain data preprocessing."},
@@ -771,13 +946,62 @@ importantQuestions:[
 },
 
 "probability-and-statistics": {
-notes:[{
-title:"Unit 1",
-description:"Coming Soon",
-pdf:"/sample.pdf"
-}],
-pyqs:[],
-books:[],
+notes:[
+  {
+title:"Unit I-Introduction to Probability and Set Theory",
+description:"Basic probability concepts and set theory.",
+pdf:"https://drive.google.com/file/d/1rg5VrAZYwIG45fa6HQzfu1SFkWe_YPF4/preview"
+},
+  {
+title:"Unit II- Introduction to Statistics",
+description:"",
+pdf:"https://drive.google.com/file/d/1oqvyBm3bxv8GMP0dj-hvI5zBZQuIvevw/preview"
+},
+  {
+title:"Unit III-Descriptive Statistics",
+description:"",
+pdf:"https://drive.google.com/file/d/1lZzFv_qQM_2ln3gcBlfNNP1efot7To6T/preview"
+},
+  {
+title:"Unit IV- Random Variables and Probability Distributions ",
+description:"",
+pdf:"https://drive.google.com/file/d/1keEH9cPS3V7LJ3nw7Ugd133Hzik4dnH9/preview"
+},
+  {
+title:"Unit V- Inferential Statistics ",
+description:"",
+pdf:"https://drive.google.com/file/d/1ful_3M7huOoqoVmPUy3Yc9qChVSqnyGg/preview"
+},
+],
+pyqs:[
+          {
+      title: "Unit I-Introduction to Probability and Set Theory",
+      pdf: "https://drive.google.com/file/d/11EmqpZwyUbwv31F_WV7YHkVq3-Y7RrYG/preview",
+    },
+              {
+      title: "Unit II-Introduction to Statistics",
+      pdf: "https://drive.google.com/file/d/14tcvLqFKr0YKQchqBqG5_2vlYR4_hElq/preview",
+    },
+              {
+      title: "Unit III-Descriptive Statistics",
+      pdf: "https://drive.google.com/file/d/1Ea_L81eNjSUJW6KNRiXu1IS0-chGYtSw/preview",
+    },
+              {
+      title: "Unit IV- Random Variables and Probability Distributions ",
+      pdf: "https://drive.google.com/file/d/1PVKLHNzqQvHixVIlF2X82QJgP8aRZeZF/preview",
+    },
+              {
+      title: "Unit V- Inferential Statistics ",
+      pdf: "https://drive.google.com/file/d/16EsbZhV96-RYZo6ltYuS14jGzEoPFkr1/preview",
+    },
+],
+books:[
+   {
+      title: "",
+      author: "",
+      pdf: "",
+    },
+],
 importantQuestions:[
 {question:"Define probability."},
 {question:"Explain conditional probability."},
@@ -793,12 +1017,35 @@ importantQuestions:[
 },
 
 "embedded-systems": {
-notes:[{
-title:"Unit 1",
-description:"Coming Soon",
-pdf:"/sample.pdf"
-}],
-pyqs:[],
+notes:[
+  {
+title:"Unit I- Introduction to Embedded Systems ",
+description:"Comming soon",
+pdf:""
+},
+],
+pyqs:[
+      {
+      title: "Unit I- Introduction to Embedded Systems ",
+      pdf: "https://drive.google.com/file/d/1Y4_k_y5zZJpTCsAyyArSdb4gUMGZ8YTk/preview",
+    },
+      {
+      title: "Unit II- Microcontrollers in Embedded System ",
+      pdf: "https://drive.google.com/file/d/17PkDDVSncsVYmir6reGUYB_C9fi8lJl5/preview",
+    },
+      {
+      title: "Unit III- Sensors , ADCs and Actuators  ",
+      pdf: "https://drive.google.com/file/d/1ORj2dfCNeskDX4QI4E5GTHw-tabbeYCv/preview",
+    },
+      {
+      title: "Unit IV- ARM Processor  ",
+      pdf: "https://drive.google.com/file/d/1FjjLG2HzpcGjLKSJOM23y4aatvtYqg5X/preview",
+    },
+      {
+      title: "Unit V-Real time operating systems ",
+      pdf: "https://drive.google.com/file/d/1ZhQo2RYSts-jgI5QB3fBOWiwjy6dXAaE/preview",
+    },
+],
 books:[],
 importantQuestions:[
 {question:"Define embedded systems."},
