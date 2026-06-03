@@ -17,13 +17,13 @@ const [open,setOpen]=useState(false);
 const links={
 
 whatsapp:
-"https://chat.whatsapp.com/EfzHiIkHheD8aHUq72Owxy",
+"https://chat.whatsapp.com/channel/0029VbD2t9jCsU9YSo9H020W",
 
 telegram:
-"YOUR_TELEGRAM_LINK",
+"https://t.me/+chHSjMXsj_c3MGFl",
 
 instagram:
-"YOUR_INSTAGRAM_LINK",
+" https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=a56zsus",
 
 linkedin:
 "YOUR_LINKEDIN_LINK"
