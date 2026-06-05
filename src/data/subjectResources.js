@@ -515,16 +515,22 @@ export const subjectResources = {
       description: "Sensors and communication protocols.", 
       pdf: "https://drive.google.com/file/d/1mELVB7e6s8kLGfsSa4nC3uJt5ujzNj_6/preview",
     },
+      {
+      title: "Unit III- Protocols for IoT ",
+      description: "Notes pdf 1", 
+      pdf: "https://drive.google.com/file/d/1aXtzbvEuHSGPjJ46NAd6ghTUClnqlZ_X/preview",
+    },
         {
       title: "Unit III- Protocols for IoT ",
-      description: "Sensors and communication protocols.", 
+      description: "Notes pdf 2", 
       pdf: "https://drive.google.com/file/d/1Ln0EshJ3BM9xoc9O1WcUUF_36tQFWmQW/preview",
     },
         {
-      title: "Unit IV-Cloud for IoT",
+      title: "Unit IV ",
       description: "Comming soon.", //Sensors and communication protocols
-      pdf: "/Computer Engineering/Sem-4/IOT/notes/IOT unit4.pdf",
+      pdf: "",
     },
+
         {
       title: "Unit V-IoT Applications ",
       description: "Comming soon.", //Sensors and communication protocols
