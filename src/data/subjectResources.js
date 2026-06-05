@@ -528,7 +528,7 @@ export const subjectResources = {
         {
       title: "Unit IV ",
       description: "Comming soon.", //Sensors and communication protocols
-      pdf: "\notes\computer\Unit III- Protocols for IoT.pdf",
+      pdf: "/notes/computer/Unit III- Protocols for IoT.pdf",
     },
 
         {
