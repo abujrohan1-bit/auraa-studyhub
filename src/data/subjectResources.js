@@ -518,7 +518,7 @@ export const subjectResources = {
       {
       title: "Unit III- Protocols for IoT ",
       description: "Notes pdf 1", 
-      pdf: "https://drive.google.com/file/d/19uilqNqRR4vMPwTBd9grC-YKeCYjkiZc/preview",
+      pdf: "https://drive.google.com/file/d/1ajTFLBmkKQsGcioE42TUT-jn3CmoQcQI/preview",
     },
         {
       title: "Unit III- Protocols for IoT ",
