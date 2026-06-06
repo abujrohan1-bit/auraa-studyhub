@@ -524,11 +524,11 @@ export const subjectResources = {
       title: "Unit III- Protocols for IoT ",
       description: "Notes pdf 1", 
       pdf: "https://drive.google.com/file/d/1Ln0EshJ3BM9xoc9O1WcUUF_36tQFWmQW/preview",
-    },
+    }, 
         {
       title: "Unit IV ",
-      description: "Comming soon.", //Sensors and communication protocols
-      pdf: "",
+      description: "syllabus wise notes", //Sensors and communication protocols
+      pdf: "https://drive.google.com/file/d/1JlhigEpv3hB7xaF8XC_RvHNel5eHzdNQ/preview",
     },
 
         {
