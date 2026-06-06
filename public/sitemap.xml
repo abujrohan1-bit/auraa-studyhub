@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- MAIN -->
+
+  <url>
+    <loc>https://auraaweb.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- PAGES -->
+
+  <url>
+    <loc>https://auraaweb.com/about</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/contact</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/privacy-policy</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/terms</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/disclaimer</loc>
+  </url>
+
+
+  <!-- COMPUTER ENGINEERING -->
+
+  <url>
+    <loc>https://auraaweb.com/subject/computer-engineering/semester-3/com-digital-electronics-and-logic-design</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/subject/computer-engineering/semester-4/com-database-management-systems</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/subject/computer-engineering/semester-4/com-discrete-mathematics</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/subject/computer-engineering/semester-4/com-computer-organization-and-microprocessor</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/subject/computer-engineering/semester-4/com-internet-of-things</loc>
+  </url>
+
+
+  <!-- AIDS -->
+
+  <url>
+    <loc>https://auraaweb.com/subject/aids/semester-3/digital-electronics-and-logic-design</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/subject/aids/semester-4/aids-database-management-systems</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/subject/aids/semester-4/data-science</loc>
+  </url>
+ 
+  <url>
+    <loc>https://auraaweb.com/subject/aids/semester-4/probability-and-statistics</loc>
+  </url>
+
+  <url>
+    <loc>https://auraaweb.com/subject/aids/semester-4/embedded-systems</loc>
+  </url>
+
+</urlset>
