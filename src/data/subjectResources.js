@@ -505,37 +505,14 @@ export const subjectResources = {
 
 "com-internet-of-things": {
   notes: [
-    {
-      title: "Unit 1 - Introduction to IoT",
-      description: "IoT architecture and applications.",
-      pdf: "https://drive.google.com/file/d/1CKmqivnizdzNCaYR1V2d0okvKYdyhJEm/preview",
-    },
-    {
-      title: "Unit II- Introduction to Sensors, Actuator",
-      description: "Sensors and communication protocols.", 
-      pdf: "https://drive.google.com/file/d/1mELVB7e6s8kLGfsSa4nC3uJt5ujzNj_6/preview",
-    },
-      {
-      title: "Unit III- Protocols for IoT ",
-      description: "Notes pdf 1", 
-      pdf: "https://drive.google.com/file/d/19uilqNqRR4vMPwTBd9grC-YKeCYjkiZc/preview",
-    },
-        {
-      title: "Unit III- Protocols for IoT ",
-      description: "Notes pdf 1", 
-      pdf: "https://drive.google.com/file/d/1Ln0EshJ3BM9xoc9O1WcUUF_36tQFWmQW/preview",
-    }, 
+
         {
       title: "Unit IV ",
       description: "syllabus wise notes", //Sensors and communication protocols
-      pdf: "https://drive.google.com/file/d/1JlhigEpv3hB7xaF8XC_RvHNel5eHzdNQ/preview",
+      pdf: "https://drive.google.com/file/d/19tPVOgQ86gS-YIJU1lVqEBV1UJCirO6N/preview",
     },
 
-        {
-      title: "Unit V-IoT Applications ",
-      description: "Comming soon.", //Sensors and communication protocols
-      pdf: "",
-    },
+ 
   ],
 
 
