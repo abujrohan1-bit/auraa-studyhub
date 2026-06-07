@@ -506,11 +506,18 @@ export const subjectResources = {
 "com-internet-of-things": {
   notes: [
 
-        {
-      title: "Unit IV ",
+                {
+      title: "Unit III- Protocols for IoT",
+      description: "syllabus wise notes", //Sensors and communication protocols
+      pdf: "https://drive.google.com/file/d/1R-1u86La4k1ATQ5BKng4yZC6Qh-uYXM0/preview",
+    },    
+    {
+      title: "Unit IV-Cloud for IoT",
       description: "syllabus wise notes", //Sensors and communication protocols
       pdf: "https://drive.google.com/file/d/19tPVOgQ86gS-YIJU1lVqEBV1UJCirO6N/preview",
     },
+
+
 
  
   ],
