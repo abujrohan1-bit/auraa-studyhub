@@ -240,17 +240,22 @@ export const subjectResources = {
     {
       title: "Unit 1 - Introduction to DBMS",
       description: "Database concepts and architecture.",
-      pdf: "https://drive.google.com/file/d/1UYKXVkil0b4Rhvr2VmWRqjfioBRjf0NU/preview",
+      pdf: "https://drive.google.com/file/d/1kyx4ph8btNvYdx6pFoC8KKfDobFlHq7E/preview",
     },
       {
-      title: "Unit 1 - Introduction to DBMS",
-      description: "Database concepts and architecture.",
-      pdf: "https://drive.google.com/file/d/1zHNUeE7sMfQy3aNZKx446IE8GOros2ot/preview",
+      title: "Unit II- SQL and PL/SQL",
+      description: "Notes",
+      pdf: "https://drive.google.com/file/d/1jM9O9hBFkPPfx5ZfZ4TCI9c8YDyOCkG7/preview",
     },
     {
       title: "Unit II- SQL and PL/SQL",
-      description: "",
+      description: "Unit-2 PYQs With Answer",
       pdf: "https://drive.google.com/file/d/1_0xS4APu9IbtxzrF6nGUId9ZbhUtmkgL/preview",
+    },
+      {
+      title: "Unit III- Relational Database Design ",
+      description: "Notes with PYQs Answer",
+      pdf: "https://drive.google.com/file/d/1bdA5NENuHhietk078sKSjDlyKrPm1n-g/preview",
     },
   ],
 
