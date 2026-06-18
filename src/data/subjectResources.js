@@ -243,19 +243,29 @@ export const subjectResources = {
       pdf: "https://drive.google.com/file/d/1kyx4ph8btNvYdx6pFoC8KKfDobFlHq7E/preview",
     },
       {
-      title: "Unit II- SQL and PL/SQL",
+      title: "Unit 2 - SQL and PL/SQL",
       description: "Notes",
       pdf: "https://drive.google.com/file/d/1jM9O9hBFkPPfx5ZfZ4TCI9c8YDyOCkG7/preview",
     },
     {
-      title: "Unit II- SQL and PL/SQL",
+      title: "Unit 2 - SQL and PL/SQL",
       description: "Unit-2 PYQs With Answer",
       pdf: "https://drive.google.com/file/d/1_0xS4APu9IbtxzrF6nGUId9ZbhUtmkgL/preview",
     },
       {
-      title: "Unit III- Relational Database Design ",
+      title: "Unit 3 - Relational Database Design ",
       description: "Notes with PYQs Answer",
       pdf: "https://drive.google.com/file/d/1bdA5NENuHhietk078sKSjDlyKrPm1n-g/preview",
+    },
+          {
+      title: "Unit 4 - Database Transactions ",
+      description: "Notes with PYQs Answer",
+      pdf: "https://drive.google.com/file/d/19xm3Y9UE0GTMNDThGZ1fXiHsWEWdlIgA/preview",
+    },
+          {
+      title: "Unit 5- NoSQL Database",
+      description: "Notes with PYQs Answer",
+      pdf: "https://drive.google.com/file/d/1lVVXsmTN5VQj-vQZgobgjEVa1UKpYVXS/preview",
     },
   ],
 
