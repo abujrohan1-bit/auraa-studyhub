@@ -267,7 +267,8 @@ export const subjectResources = {
       description: "Notes with PYQs Answer",
       pdf: "https://drive.google.com/file/d/1lVVXsmTN5VQj-vQZgobgjEVa1UKpYVXS/preview",
     },
-  ],
+    
+  ], 
 
   pyqs: [
     {

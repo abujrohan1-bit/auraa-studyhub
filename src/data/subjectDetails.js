@@ -64,7 +64,7 @@ description:"Database design, SQL and normalization.",
 branch:"Computer Engineering",
 semester:"Semester 4",
 pattern:"2024 Pattern",
-notes:3,
+notes:6,
 pyqs:5,
 books:10,
 importantQuestions:10
