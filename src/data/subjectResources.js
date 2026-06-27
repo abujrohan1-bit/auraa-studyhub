@@ -522,20 +522,34 @@ export const subjectResources = {
 "com-internet-of-things": {
   notes: [
 
+     {
+      title: "Unit I- Introduction to IoT ",
+      description: "syllabus wise notes", //Sensors and communication protocols
+      pdf: "https://drive.google.com/file/d/1eRMiHOH9EXKOL5Bd9Rd0KFnWvUf1kyxO/preview",
+    },    
+     {
+      title: "Unit II- Introduction to Sensors, Actuator ",
+      description: "syllabus wise notes", //Sensors and communication protocols
+      pdf: "https://drive.google.com/file/d/1JxpechwSYTMut9yd7tQ-hDFPXMYHm08D/preview",
+    },    
+    
+
                 {
       title: "Unit III- Protocols for IoT",
       description: "syllabus wise notes", //Sensors and communication protocols
-      pdf: "https://drive.google.com/file/d/1R-1u86La4k1ATQ5BKng4yZC6Qh-uYXM0/preview",
+      pdf: "https://drive.google.com/file/d/1_9VtJPbv7YX4UNfLvLvUwpgEKhEYrIs3/preview",
     },    
     {
       title: "Unit IV-Cloud for IoT",
       description: "syllabus wise notes", //Sensors and communication protocols
-      pdf: "https://drive.google.com/file/d/19tPVOgQ86gS-YIJU1lVqEBV1UJCirO6N/preview",
+      pdf: "https://drive.google.com/file/d/1dB8H6FPDX1dDBJ998HQYKRmn5vpj4HOV/preview",
+    },
+     {
+      title: "Unit V-IoT Applications ",
+      description: "syllabus wise notes", //Sensors and communication protocols
+      pdf: "https://drive.google.com/file/d/1gqPsJpt8A0crGnQ_RGvtXjhPM4uTmPmP/preview",
     },
 
-
-
- 
   ],
 
 
