@@ -39,11 +39,11 @@ link:"/subject/computer-engineering/semester-4/com-computer-organization-and-mic
 },
 
 {
-title:"Internet Of Things",
-slug:"com-internet-of-things",
-branch:"computer-engineering",
-semester:"semester-4",
-link:"/subject/computer-engineering/semester-4/com-internet-of-things"
+  title: "Environmental Studies",
+  slug: "com-environmental-studies",
+  branch: "computer-engineering",
+  semester: "semester-4",
+  link: "/subject/computer-engineering/semester-4/com-environmental-studies",
 },
 
 //AIDS 3rd sem 
@@ -87,4 +87,13 @@ branch:"aids",
 semester:"semester-4",
 link:"/subject/aids/semester-4/embedded-systems",
 },
+
+{
+  title: "Environmental Studies",
+  slug: "com-environmental-studies",
+  branch: "aids",
+  semester: "semester-4",
+  link: "/subject/aids/semester-4/com-environmental-studies",
+},
 ];
+

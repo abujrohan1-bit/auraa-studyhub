@@ -109,6 +109,19 @@ books:1,
 importantQuestions:10
 },
 
+"com-environmental-studies": {
+  title: "Environmental Studies",
+  code: "VEC-284-COM",
+  description: "Environmental science, sustainability, pollution control and biodiversity.",
+  branch: "Computer Engineering",
+  semester: "Semester 4",
+  pattern: "2024 Pattern",
+  notes: 4,
+  pyqs: 0,
+  books: 0,
+  importantQuestions: 10,
+},
+
 // AIDS
 
 "aids-data-structures": {
@@ -222,5 +235,9 @@ pyqs:5,
 books:0,
 importantQuestions:10,
 },
+
+
+
+
 
 };

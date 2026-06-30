@@ -598,6 +598,47 @@ export const subjectResources = {
   ],
 },
 
+"com-environmental-studies": {
+  notes: [
+    {
+      title: "Unit I- Environment and its issues ",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1OfM9mP91nqzdsBrFonnYtG1-wIHYm2k3/preview",
+    },
+    {
+      title: "Unit III- Environment Pollution",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1gRbbgv5HRaQp9EVLZDdW_fzEHGBkiZLQ/preview",
+    },
+    {
+      title: "Unit III- E-Waste Managements and Acts ",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1Y1ExmwRvrpY5e5JtKn8FWQvFG9dEECkY/preview",
+    },
+    {
+      title: "Unit IV- E-waste Control and measures",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1XU9Vm-gebHyrkkCwBYaGu_TjWwzRX8Hq/preview",
+    },
+    
+
+  ],
+
+
+importantQuestions: [
+  { question: "Explain Environment, its types, components, and importance." },
+  { question: "Explain Man–Environment relationship and the need for public awareness." },
+  { question: "Explain Ecosystem, its major components, and stability in a sustainable environment." },
+  { question: "Discuss Forest, Grassland, Desert, and Aquatic ecosystems with suitable case studies." },
+  { question: "Explain Air Pollution: meaning, sources, effects, prevention, and Air Pollution Act." },
+  { question: "Explain Water Pollution: meaning, sources, effects, prevention, and Water Pollution Act." },
+  { question: "Explain Noise Pollution and Solid Waste Pollution with their sources, effects, and control measures." },
+  { question: "Explain E-Waste Management, its composition, generation, hazardous properties, and effects on human health and the environment." },
+  { question: "Discuss technologies for resource recovery, recycling, and disposal of E-Waste in India." },
+  { question: "Explain E-Waste control measures, Extended Producer Responsibility (EPR), administrative and engineering controls, and environmental protection laws in India." },
+],
+},
+
 
 
 
@@ -1079,5 +1120,45 @@ importantQuestions:[
 {question:"Applications of embedded systems."},
 {question:"Explain communication protocols."}
 ]
+},
+"com-environmental-studies": {
+  notes: [
+    {
+      title: "Unit I- Environment and its issues ",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1OfM9mP91nqzdsBrFonnYtG1-wIHYm2k3/preview",
+    },
+    {
+      title: "Unit III- Environment Pollution",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1gRbbgv5HRaQp9EVLZDdW_fzEHGBkiZLQ/preview",
+    },
+    {
+      title: "Unit III- E-Waste Managements and Acts ",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1Y1ExmwRvrpY5e5JtKn8FWQvFG9dEECkY/preview",
+    },
+    {
+      title: "Unit IV- E-waste Control and measures",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1XU9Vm-gebHyrkkCwBYaGu_TjWwzRX8Hq/preview",
+    },
+    
+
+  ],
+
+
+importantQuestions: [
+  { question: "Explain Environment, its types, components, and importance." },
+  { question: "Explain Man–Environment relationship and the need for public awareness." },
+  { question: "Explain Ecosystem, its major components, and stability in a sustainable environment." },
+  { question: "Discuss Forest, Grassland, Desert, and Aquatic ecosystems with suitable case studies." },
+  { question: "Explain Air Pollution: meaning, sources, effects, prevention, and Air Pollution Act." },
+  { question: "Explain Water Pollution: meaning, sources, effects, prevention, and Water Pollution Act." },
+  { question: "Explain Noise Pollution and Solid Waste Pollution with their sources, effects, and control measures." },
+  { question: "Explain E-Waste Management, its composition, generation, hazardous properties, and effects on human health and the environment." },
+  { question: "Discuss technologies for resource recovery, recycling, and disposal of E-Waste in India." },
+  { question: "Explain E-Waste control measures, Extended Producer Responsibility (EPR), administrative and engineering controls, and environmental protection laws in India." },
+],
 },
 };
