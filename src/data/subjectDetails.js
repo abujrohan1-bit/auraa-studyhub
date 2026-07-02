@@ -122,6 +122,19 @@ importantQuestions:10
   importantQuestions: 10,
 },
 
+"com-project-management": {
+  title: "Project Management",
+  code: "VEC-285-COM",
+  description: "Project planning, scheduling, risk management, estimation and software project management concepts.",
+  branch: "Computer Engineering",
+  semester: "Semester 4",
+  pattern: "2024 Pattern",
+  notes: 4,
+  pyqs: 0,
+  books: 0,
+  importantQuestions: 10,
+},
+
 // AIDS
 
 "aids-data-structures": {
@@ -235,7 +248,18 @@ pyqs:5,
 books:0,
 importantQuestions:10,
 },
-
+"aids-project-management": {
+  title: "Project Management",
+  code: "VEC-285-AIDS",
+  description: "Project planning, scheduling, risk management, estimation and software project management concepts.",
+  branch: "Artificial Intelligence & Data Science",
+  semester: "Semester 4",
+  pattern: "2024 Pattern",
+  notes: 4,
+  pyqs: 0,
+  books: 0,
+  importantQuestions: 0,
+},
 
 
 

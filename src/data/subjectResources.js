@@ -638,6 +638,76 @@ importantQuestions: [
   { question: "Explain E-Waste control measures, Extended Producer Responsibility (EPR), administrative and engineering controls, and environmental protection laws in India." },
 ],
 },
+"com-project-management": {
+  notes: [
+ {
+      title: "Unit I - Introduction to Project Management",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1LGvRR8JeVLbAoJLkDIqQm2NCIHQN_2m6/preview",
+    },
+    {
+      title: "Unit II-Agile Software Development ", 
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1fBNF59bcfP0iRziDiDKmX4-wKDjWZq9w/preview",
+    },
+    {
+      title: "Unit III-Project Planning and Management ",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1VpCDhGvENaf4AoKFzDMstkXgThfMeWmf/preview",
+    },
+    { 
+      title: "Unit IV- Project Execution and Control ",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1RNY3izeTILquO9FMM5hucJLq50ozfxk_/preview",
+    },
+  ],
+
+  pyqs: [
+    {
+      title: "Unit I - Introduction to Project Management : IMP Questions",
+      pdf: "",
+    },
+    {
+      title: "Unit II - Project Planning & Scheduling : IMP Questions",
+      pdf: "",
+    },
+    {
+      title: "Unit III - Project Cost Estimation & Risk Management : IMP Questions",
+      pdf: "",
+    },
+    {
+      title: "Unit IV - Project Monitoring & Quality Management : IMP Questions",
+      pdf: "",
+    },
+    {
+      title: "Unit V - Software Project Management & Case Studies : IMP Questions",
+      pdf: "",
+    },
+  ],
+
+  books: [
+    {
+      title: "Previous Year's Questions are covered in Notes Section",
+      author: "",
+      pdf: "",
+    },
+  ],
+
+  importantQuestions: [
+    { question: "Explain project life cycle." },
+    { question: "Discuss project planning process." },
+    { question: "Explain Work Breakdown Structure (WBS)." },
+    { question: "Explain Gantt Chart and PERT/CPM." },
+    { question: "Discuss project cost estimation techniques." },
+    { question: "Explain project risk management." },
+    { question: "Discuss quality management in projects." },
+    { question: "Explain project scheduling techniques." },
+    { question: "Discuss software project management." },
+    { question: "Explain project monitoring and control." },
+  ],
+},
+
+
 
 
 
@@ -806,9 +876,7 @@ importantQuestions: [
 { question:"Explain sequential circuits." },
 
 ],
-
 },
-
 // AIDS 4th sem
 
 "aids-database-management-systems": {
@@ -1160,5 +1228,44 @@ importantQuestions: [
   { question: "Discuss technologies for resource recovery, recycling, and disposal of E-Waste in India." },
   { question: "Explain E-Waste control measures, Extended Producer Responsibility (EPR), administrative and engineering controls, and environmental protection laws in India." },
 ],
+},
+
+"aids-project-management": {
+  notes: [
+    {
+      title: "Unit I - Introduction to Project Management",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1LGvRR8JeVLbAoJLkDIqQm2NCIHQN_2m6/preview",
+    },
+    {
+      title: "Unit II-Agile Software Development ", 
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1fBNF59bcfP0iRziDiDKmX4-wKDjWZq9w/preview",
+    },
+    {
+      title: "Unit III-Project Planning and Management ",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1VpCDhGvENaf4AoKFzDMstkXgThfMeWmf/preview",
+    },
+    { 
+      title: "Unit IV- Project Execution and Control ",
+      description: "Syllabus wise notes",
+      pdf: "https://drive.google.com/file/d/1RNY3izeTILquO9FMM5hucJLq50ozfxk_/preview",
+    },
+
+  ],
+
+  importantQuestions: [
+    { question: "Explain project life cycle." },
+    { question: "Discuss project planning process." },
+    { question: "Explain Work Breakdown Structure (WBS)." },
+    { question: "Explain Gantt Chart and PERT/CPM." },
+    { question: "Discuss project cost estimation techniques." },
+    { question: "Explain project risk management." },
+    { question: "Discuss quality management in projects." },
+    { question: "Explain project scheduling techniques." },
+    { question: "Discuss software project management." },
+    { question: "Explain project monitoring and control." },
+  ],
 },
 };

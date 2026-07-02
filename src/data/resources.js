@@ -1,61 +1,6 @@
 export const resources = {
 
-  "data-structures": {
-  notes: [],
-  pyqs: [],
-  books: [],
-  importantQuestions: [],
-},
-
-"object-oriented-programming-and-computer-graphics": {
-  notes: [],
-  pyqs: [],
-  books: [],
-  importantQuestions: [],
-},
-
-"operating-systems": {
-  notes: [],
-  pyqs: [],
-  books: [],
-  importantQuestions: [],
-},
-
-"microprocessor": {
-  notes: [],
-  pyqs: [],
-  books: [],
-  importantQuestions: [],
-},
-
-"database-management-systems": {
-  notes: [],
-  pyqs: [],
-  books: [],
-  importantQuestions: [],
-},
-
-"discrete-mathematics": {
-  notes: [],
-  pyqs: [],
-  books: [],
-  importantQuestions: [],
-},
-
-"computer-organization-and-microprocessor": {
-  notes: [],
-  pyqs: [],
-  books: [],
-  importantQuestions: [],
-},
-
-"internet-of-things": {
-  notes: [],
-  pyqs: [],
-  books: [],
-  importantQuestions: [],
-},
-
+  
   "database-management-system": {
     title: "Database Management System",
     description:

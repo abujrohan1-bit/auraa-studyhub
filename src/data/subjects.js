@@ -45,6 +45,13 @@ link:"/subject/computer-engineering/semester-4/com-computer-organization-and-mic
   semester: "semester-4",
   link: "/subject/computer-engineering/semester-4/com-environmental-studies",
 },
+{
+  title: "Project Management",
+  slug: "com-project-management",
+  branch: "computer-engineering",
+  semester: "semester-4",
+  link: "/subject/computer-engineering/semester-4/com-project-management",
+},
 
 //AIDS 3rd sem 
 {
@@ -94,6 +101,13 @@ link:"/subject/aids/semester-4/embedded-systems",
   branch: "aids",
   semester: "semester-4",
   link: "/subject/aids/semester-4/com-environmental-studies",
+},
+{
+  title: "Project Management",
+  slug: "aids-project-management",
+  branch: "aids",
+  semester: "semester-4",
+  link: "/subject/aids/semester-4/aids-project-management",
 },
 ];
 
